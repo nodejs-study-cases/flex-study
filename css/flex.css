@@ -1,0 +1,278 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(201, 89, 89);
+    border-radius: 4px;
+    box-shadow: 1px;
+    margin: 5px;
+}
+
+.box2{
+    justify-content: center;
+}
+
+.box3{
+    justify-content: flex-end;
+}
+
+.box4{
+    align-items: center;
+}
+
+.box5{
+    justify-content: center;
+    align-items: center;
+}
+
+.box6{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box7{
+    align-items: flex-end;
+}
+
+.box8{
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box9{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.double-box1{
+    justify-content: space-between;
+}
+
+.double-box2{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.double-box3{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.double-box4{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.double-box5{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.double-box6{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.double-box7 .item:nth-child(2){
+    align-self: center;
+}
+
+
+.double-box8{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.double-box8 .item:nth-child(1){
+    align-self: center;
+}
+
+.double-box9{
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.double-box9 .item:nth-child(1){
+    align-self: center;
+}
+
+.double-box10{
+    justify-content: flex-end;
+}
+
+.double-box10 .item:nth-child(1){
+    align-self: center;   
+}
+
+.double-box11{
+    justify-content: space-between;
+}
+
+.double-box11 .item:nth-child(1){
+    align-self: flex-end;
+}
+
+
+.double-box12{
+    justify-content: space-between;
+} 
+
+.double-box12 .item:nth-child(2){
+    align-self: flex-end;
+}
+
+.double-box13{
+    flex-direction: column;
+}
+
+.double-box13 .item:nth-child(1){
+    align-self: center;
+}
+
+.double-box14{
+    flex-direction: column;
+    align-items: center;
+}
+
+.double-box14 .item:nth-child(2){
+    align-self: flex-end;
+}
+
+.double-box15{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.double-box15 .item:nth-child(1){
+    align-self: flex-end;
+}
+
+.double-box16{
+    align-items: flex-end;
+}
+
+.double-box16 .item:nth-child(1){
+    align-self: center;
+}
+
+.double-box17{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.double-box17 .item:nth-child(1){
+    align-self: center;
+}
+
+.double-box18{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.double-box18 .item:nth-child(2){
+    align-self: flex-end;
+}
+
+.double-box19{
+    justify-content: space-between;
+}
+
+.double-box19 .item:nth-child(2){
+    align-self: center;
+}
+
+.double-box20{
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.double-box20 .item:nth-child(1){
+    align-self: flex-end;
+}
+
+.double-box21 .item:nth-child(2){
+    align-self: flex-end;
+}
+
+.double-box22{
+    justify-content: flex-end
+}
+
+.double-box22 .item:nth-child(1){
+    align-self: flex-end;
+}
+
+.double-box23{
+    justify-content: space-between;
+}
+
+.double-box23 .item:nth-child(1){
+    align-self: center;
+} 
+
+.double-box24{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.double-box24 .item:nth-child(2){
+    align-self: flex-end;
+}
+
+.three-box1{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three-box2{
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.three-box3{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three-box4{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.three-box5{justify-content: space-between;}
+.three-box5 .item:nth-child(2){
+    align-self: center
+}
+
+.three-box5 .item:nth-child(3){
+    align-self: flex-end;
+}
+
+.three-box6{justify-content: space-between;}
+.three-box6 .item:nth-child(1){
+    align-self: flex-end;
+}
+
+.three-box6 .item:nth-child(2){
+    align-self: center;
+}
