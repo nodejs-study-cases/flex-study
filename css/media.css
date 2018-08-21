@@ -1,0 +1,17 @@
+.Media {
+    display: flex;
+    align-items: flex-start;
+    width: 20em;
+}
+  
+.Media-figure {
+    margin-right: 1em;
+    height: 5em;
+    width: 5em;
+}
+  
+.Media-body {
+    flex: 1;
+    margin: 0;
+    background-color: rgb(223, 215, 215);
+}
