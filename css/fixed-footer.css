@@ -1,0 +1,15 @@
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+  
+.Site-content {
+    flex: 1;
+}
+
+footer{
+    background-color: #ccc;
+    height: 2em;
+}
