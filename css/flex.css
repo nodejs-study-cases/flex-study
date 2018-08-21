@@ -276,3 +276,47 @@
 .three-box6 .item:nth-child(2){
     align-self: center;
 }
+
+.four-box1{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+.four-box2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.four-box2 .column{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.six-box1{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.six-box2{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.six-box3{
+    flex-wrap: wrap;
+}
+
+.six-box3 .row{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.six-box3 .row:nth-child(2){
+    justify-content: center;
+  }
